@@ -1,0 +1,89 @@
+/* Medium Layout: 1280px. 
+
+Checking Point: 1000px
+Width: 970px
+*/
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .project-btn {
+        padding-left: 291px;
+    }
+
+}
+
+
+/* Tablet Layout: 768px. 
+
+Checking Point: 800px
+Width: 750px
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+
+
+
+}
+
+
+/* Mobile Layout: 320px. 
+
+Checking Point: 320px
+Width: 300px
+*/
+@media only screen and (max-width: 767px){
+    
+    .logo h4 a{
+        color: #333333;
+        font-size: 25px;
+    }
+    .header-area .col-xl-3{
+        width: 50%;
+        background-color: #fff;
+    }
+    .header-area .col-xl-9 {
+        width: 50%;
+    }
+    .header-area{
+        background-color: #fff;
+    }
+    .navbar {
+        float: right;
+    }
+    .menu ul li a {
+        color: #333;
+    }
+    .welcome h2 {
+        font-size: 53px;
+    }
+    .about-content {
+        margin-bottom: 33px;
+    }
+    .about-area {
+        padding-bottom: 0;
+    }
+    .clients.owl-carousel .owl-item img {
+        margin-left: 100px;
+    }
+    .single-blog:hover::after {
+        top: 94px;
+    }
+    .work-area {
+        padding-bottom: 0;
+    }
+    .contact {
+        margin-bottom: 60px;
+    }
+    .project-btn {
+        padding-left: 0;
+    }
+    .nav-item a {
+        padding: 3px 8px;
+        margin-right: 2px;
+        font-size: 13px;
+    }
+
+
+
+
+
+}
